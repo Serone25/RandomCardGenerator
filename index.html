@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e5669e5212.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Random Card Generator</title>
+</head>
+<body>
+    <div>
+        <h1>Random Card Generator</h1>
+    </div>
+    <div id="countdown">
+        <h2 class="counter">10</h2>
+    </div>
+    <div>
+        <div class="cardContainer">
+            <div class ="headCardContainer">
+                <div id ="icono" class = "icon">♠</div>
+            </div>
+            <div class = "cardImage">7</div>
+            <div class ="bottomCardContainer">
+                <div id = "icono" class = "icon2">♠</div>
+            </div>
+        </div>
+        <div class="buttonRandom">
+            <button onclick="randomCard()" class="boton">Click me!!</button>
+        </div>
+        <div class="timeButton">
+            <button onclick="setTotalTime()" class ="botontiempo">It's Time!!</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+body{
+    background-color: green;
+}
+
+h1{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+
+}
+#countdown{
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-bottom: 1%;
+}
+.counter{
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-bottom: 1%;
+}
+.cardContainer {
+    width: 300px;
+    height: 450px;
+    border-radius: 30px;
+    margin: auto;
+    background-color: white;
+}
+#icono{
+    font-size: 90px;
+}
+.icon{
+    padding-left: 5%;
+    padding-top:0%;
+}
+.headCardContainer{
+    width: 100%;
+    height:100px;
+}
+.cardImage{
+    width: 100%;
+    height:250px;
+    font-size: 150px;
+    text-align: center;
+}
+.bottomCardContainer{
+    width: 100%;
+    height: 100px;
+}
+.icon2{
+    padding-left: 5%;
+    padding-top: 0%;
+    transform: rotate(-180deg)
+}
+.buttonRandom{
+    text-align: center;
+    padding-top: 20px;
+}
+.boton{
+    background-color:aqua;
+    border: 2px solid black;
+    color: white;
+    padding: 15px 32px;
+    font-size: 20px;
+}
+.timeButton{
+    text-align: center;
+    padding-top: 20px;
+}
+.botontiempo{
+    background-color:yellow;
+    border: 2px solid black;
+    color: red;
+    padding: 15px 32px;
+    font-size: 20px;
+}
